@@ -1,6 +1,6 @@
 stages:
   mystage:
-    cmd: python -m create_plot.py
+    cmd: python create_plot.py
     deps:
     - create_plot.py
 metrics:
