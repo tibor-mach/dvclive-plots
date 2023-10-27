@@ -1,0 +1,9 @@
+schema: '2.0'
+stages:
+  mystage:
+    cmd: python create_plot.py
+    deps:
+    - path: create_plot.py
+      hash: md5
+      md5: 188f84ac3dd6d7ccea90f31024bcc4ce
+      size: 388
