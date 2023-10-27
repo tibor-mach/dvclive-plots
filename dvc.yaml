@@ -1,0 +1,10 @@
+stages:
+  mystage:
+    cmd: python -m create_plot.py
+    deps:
+    - create_plot.py
+metrics:
+- dvclive/metrics.json
+plots:
+- dvclive/plots/metrics:
+    x: step
